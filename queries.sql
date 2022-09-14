@@ -1,5 +1,5 @@
 -- Queries relacionadas aos dados adicionados
-
+use ecommerce;
 
 select concat(Fname,' ',Minit,' ',Lname) as Client, idOrderClient as Request, statusPedido as Status from clients c, orders o where c.idClient = idOrderClient; 
 
